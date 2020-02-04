@@ -7,3 +7,4 @@ $('.modal').on('click', function(modal) {
 		$(this).removeClass('modal-ativo');
 	}
 });
+

@@ -202,10 +202,6 @@ button.btn{
 	margin: 20px 0;
 }
 
-.vantagens{
-
-}
-
 .vantagens h1 {
 	font-size: 1.75em;
 	color: #FF6200;
@@ -226,7 +222,20 @@ button.btn{
 	margin: 0 auto;
 }
 
+.vantagens svg path {
+	animation: svg-animate 4s forwards infinite;
+}
+
+@keyframes svg-animate {
+	from {}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
 .vantagens p {
 	text-align: center;
 	line-height: 1.4em;
+	color: #29383e;
 }
+
